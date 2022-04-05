@@ -34,9 +34,9 @@ function login(){
                 localStorage.setItem("token", result);
                 var zone = localStorage.getItem('zone');
                 if (zone == 'shop') {
-                    console.log(zone);
+                    setTimeout('window.location.href = "index.php?module=ctrl_shop&op=list"; ',200);
                 } else {
-                    //setTimeout('window.location.href = "index.php?module=ctrl_home&op=list"; ',200);
+                    setTimeout('window.location.href = "index.php?module=ctrl_home&op=list"; ',200);
                 }
             }
         }).catch(function() {
