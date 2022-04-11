@@ -1,3 +1,0 @@
-> git pull --tags origin master
-remote: Repository not found.
-fatal: repository 'https://github.com/JoanFerrero/Concessionaire_PHP_OO_MVC_jQuery.git/' not found
